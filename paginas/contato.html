@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Amanda">
+    <meta name="description" content="Página criada para entrar em contato com Amanda Amorim">
+    <title>Contato</title>
+    <style>
+        form{
+            /*Centralizar página*/
+            margin: 0 auto;
+            width: 350px;
+            /*Contorno forms*/
+            padding: 1em;
+            border: 1px solid rgba(226, 161, 193, 0.932);
+            border-radius: 1em;
+            /* text-align: center; */
+            font-family: "Times New Roman";
+        }
+
+        label{
+            /* Tamanho*/
+            width: 150px;
+        }
+        input{
+            width: 100px;
+        }
+        body{
+            /*Mesma fonte nos textos e cor na página*/
+            font: 1em arial ;
+            font-size: 12px;
+
+        }
+        h1{
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1> Contato</h1>
+    <form action="">
+    
+        <label for="nome">Nome: </label>
+        <input for="text" id="nome" name="nomePessoa"><br>
+        <br>   
+        <label for="email">Digite seu email: </label>
+        <input type="text" id="email" name="emailPessoa" required/><br>
+        <br>  
+        <label for="mensagem">Deixe uma mensagem: </label>
+        <textarea id="text" id="mensagem" name="mensagemPessoa" rows="5" cols="33" required></textarea>
+        <br>  
+        <input type="submit" value="Enviar">
+    </form>
+<p>Voltar para <a href="../index.html">página inicial</a></p>
+    </section>
+<!--Página criada no dia 11 de Setembro de 2022-->
+</body>
+</html>
