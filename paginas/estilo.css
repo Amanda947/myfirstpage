@@ -8,7 +8,7 @@ form{
     border-radius: 1em;
     /* text-align: center; */
     font-family: "Times New Roman";
-    background-color: #772677c2 ; 
+    background-color: #e088e0c2 ; 
     text-align: center;
 
 }
@@ -19,6 +19,8 @@ label{
 }
 input{
     width: 100px;
+    border-radius: 5px;
+    
 }
 body{
     /*Mesma fonte nos textos e cor na página*/
@@ -36,8 +38,10 @@ h1{
         padding: 30px 10px; 
         background-color: #c77ac7 ; 
         font-size: 20px;
-        box-shadow: 0 10px #e4b6e4;
+        box-shadow: 0 10px #aa5aaa;
         cursor: pointer;
+        border-width: 0px;
+
     }
 
     .botao:hover{
