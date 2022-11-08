@@ -1,0 +1,51 @@
+form{
+    /*Centralizar página*/
+    margin: 0 auto;
+    width: 350px;
+    /*Contorno forms*/
+    padding: 1em;
+    border: 1px solid rgba(226, 161, 193, 0.932);
+    border-radius: 1em;
+    /* text-align: center; */
+    font-family: "Times New Roman";
+    background-color: #e088e0c2 ; 
+    text-align: center;
+
+}
+
+label{
+    /* Tamanho*/
+    width: 150px;
+}
+input{
+    width: 100px;
+    border-radius: 5px;
+    
+}
+body{
+    /*Mesma fonte nos textos e cor na página*/
+    font: 1em arial ;
+    font-size: 12px;
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}   
+
+    .botao{
+       border-radius: 10px;
+        padding: 30px 10px; 
+        background-color: #c77ac7 ; 
+        font-size: 20px;
+        box-shadow: 0 10px #aa5aaa;
+        cursor: pointer;
+        border-width: 0px;
+
+    }
+
+    .botao:hover{
+        background-color: #be51be ; 
+
+
+    } 
