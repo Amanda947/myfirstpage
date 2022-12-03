@@ -18,7 +18,7 @@
     padding: 1rem;
     position: relative;
     text-decoration: none;
-    transition-duration: 0,5s;
+    transition-duration: 0.5s;
     height: auto;
     width: auto;
 }
@@ -120,6 +120,7 @@ section{
         font-family: monospace;
         float: left;
         width: 100%;
+        display: flex;
          background-color: rgb(66, 74, 143);
         cursor: pointer;
         background-color: rgb(72, 87, 162);
@@ -128,7 +129,6 @@ section{
 #menu-principal li{
     background-color: rgb(66, 74, 143);
     cursor: pointer;
-    display: flex;
     background-color:rgb(34, 46, 154);
         width: 21%;
         float: none;
