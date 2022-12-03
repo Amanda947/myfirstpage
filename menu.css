@@ -128,6 +128,7 @@ section{
 #menu-principal li{
     background-color: rgb(66, 74, 143);
     cursor: pointer;
+    display: flex;
     background-color:rgb(34, 46, 154);
         width: 21%;
         float: none;
