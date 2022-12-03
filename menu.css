@@ -102,16 +102,99 @@ section{
     font-weight: bold;
 }
 
-@media screen and (min-width: 481px) and (max-width:767px){
+@media screen and (max-width: 480px){
     article{
-    flex: 40%;
-    font-size: 1em;
+    flex-direction: column;
     }
+    body{
+        font-size: 0.5rem;
+        max-width: 480px;
+    }
+    
+#navegacao-principal nav{
+    float: left;
+    width: 100%;
+}
+#menu-principal{
+    position: relative;
+        font-family: monospace;
+        float: left;
+        width: 100%;
+         background-color: rgb(66, 74, 143);
+        cursor: pointer;
+        background-color: rgb(72, 87, 162);
+   
+}
+#menu-principal li{
+    background-color: rgb(66, 74, 143);
+    cursor: pointer;
+    background-color:rgb(34, 46, 154);
+        width: 21%;
+        float: none;
 }
 
-@media screen and (min-width: 768px) and (max-width:1920px){
+#menu-principal li a{
+        text-align: left;
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        display: block;
+        outline: none;
+}
+
+.dropdown{
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 0.5rem;
+    left: 0;
+    
+}
+
+.dropdown li{
+    clear: both;
+    width: 100%;
+}
+#menu-principal li:hover,
+#menu-principal li:focus-within{
+    background-color: rgb(66, 74, 143);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    width: auto;
+
+}
+#menu-principal li a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+#menu-principal li:hover>ul,
+#menu-principal li:focus-within>ul{
+    background-color:rgb(34, 46, 154);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;   
+}
+
+
+@media screen and (min-width:801px) {
     article{
     flex: 50%;
     font-size: 3em;
     }   
+    body {
+        font-size: 1rem;
+        
+    }
+}
+@media screen and (min-width: 1281px) {
+    article{
+        flex-direction: column;
+        }
+        body{
+            font-size: 1.5rem;
+            max-width: 480px;
+        }
+}
 }
